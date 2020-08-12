@@ -7,10 +7,10 @@
 
 3. Print the length of the array "euroCities".
 
-4. Remove the last item of the array "euroCities". 
+4. Delete the last item of the array "euroCities".
 
 5. Add "Budapest" to the euroCities array. 
 
-6. Remove the second and third items from the euroCities array. 
+6. Delete the second and third items from the euroCities array. 
 
 7. Create another variable named asianCities and assign an array to the variable. Clone the array asianCities.
