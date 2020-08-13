@@ -36,10 +36,8 @@ console.log(euroCities);  //[ 'Berlin', <2 empty items>, 'Prague', <1 empty item
 
 //7.)
 
-let asianCities = [];
+let asianCities = ["Tokyo","Delhi","Jakarta"];
 
-let asianCities2 = [
-    asianCities
-]
+let asianCities2 = asianCities;
 
-console.log(asianCities2);   //  [ [] ]
+console.log(asianCities2);   
