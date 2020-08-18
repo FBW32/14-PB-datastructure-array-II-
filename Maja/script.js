@@ -1,9 +1,9 @@
 /* 1. Declare a variable named "euroCities" and assign an array to the variable e.g. ["Paris", "London", "Valletta", "Prague", "Rome"]. Declare another variable and assign the second item of the array as a value. */
 
-let euroCities = ["Paris", "London", "Valletta", "Prague", "Rome"]; // [ 'Paris', 'London', 'Valletta', 'Prague', 'Rome' ]
-console.log(euroCities);
+let euroCities = ["Paris", "London", "Valletta", "Prague", "Rome"];
+console.log(euroCities); // [ 'Paris', 'London', 'Valletta', 'Prague', 'Rome' ]
 let pl = "Poland";
-console.log(pl);
+console.log(pl); // Poland
 
 euroCities.splice(1, 0, "Poland");
 console.log(euroCities); // [ 'Paris', 'Poland', 'London', 'Valletta', 'Prague', 'Rome' ]
@@ -27,8 +27,8 @@ console.log(euroCities); // [ 'Berlin', 'Poland', 'London', 'Valletta', 'Prague'
 
 /* 5. Add "Budapest" to the euroCities array.
  */
-let Budap = "Budapest";
-euroCities.push(Budap);
+/* let Budap = "Budapest"; */
+euroCities.push(`Budapest`);
 console.log(euroCities); // [ 'Berlin', 'Poland', 'London', 'Valletta', 'Prague', 'Budapest' ]
 
 /* 6. Delete the second and third items from the euroCities array.
@@ -40,3 +40,6 @@ console.log(euroCities); // [ 'Berlin', 'Valletta', 'Prague', 'Budapest' ]
 
 let asianCities = [`${euroCities}`];
 console.log(asianCities); // [ 'Berlin,Valletta,Prague,Budapest' ]
+
+let asiaCitiesClone = asianCities.map((x) => x);
+console.log(asiaCitiesClone);
